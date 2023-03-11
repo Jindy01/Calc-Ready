@@ -1,17 +1,17 @@
-html{
+html {
   box-sizing: border-box;
   height: 100%;
 }
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: 0;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   align-items: center;
   background: linear-gradient(180deg, rgb(216 50 50), rgb(227 83 251));
   display: flex;
@@ -21,19 +21,19 @@ body{
   justify-content: center; 
 }
 
-.wrapper{
-  box-shadow: 20px 20px 11px 4px rgb(0 0 255 / 10%);
-  background: linear-gradient(360deg, rgb(240 102 245), rgb(122 229 230));
+.wrapper {
+  padding: 30px  40px;
+  height: 550px;
+  flex-basis: 540px;
   border: 1px;
   border-radius: 70px;
+  box-shadow: 20px 20px 11px 4px rgb(0 0 255 / 10%);
+  background: linear-gradient(360deg, rgb(240 102 245), rgb(122 229 230));
   color: rgba(251, 106, 164, 0.833);
   backdrop-filter: rgb(240, 161, 161);
-  flex-basis: 540px;
-  height: 550px;
-  padding: 30px  40px;
 }
 
-.screen{
+.screen {
   margin-right: 20px;
   margin-left: 20px;
   background-color: rgb(255, 255, 255);
@@ -47,14 +47,13 @@ body{
   
 }
 
-.calc-button-row{
+.calc-button-row {
   display: flex;
   justify-content: space-between;
   margin: 5%;
 
 }
-.calc-button{
-  box-shadow: 7px 7px 6px 0px rgb(0 0 244 / 10%);
+.calc-button {
   border: 0px;
   border-radius: 15px;
   flex-basis: 20%;
@@ -63,18 +62,21 @@ body{
   height: 65px;
   border-color: aquamarine;
   background: linear-gradient( rgb(193 229 233), rgb(248 152 255 / 76%));
+  box-shadow: 7px 7px 6px 0px rgb(0 0 244 / 10%);
 }
 
-.calc-button:hover{
+.calc-button:hover {
   background-color: rgba(255, 0, 255, 0.597);
   color: inherit;
 }
 
-.double{
+.double {
   flex-basis: 47%;
 }
 
-.triple{
+.triple {
   flex-basis: 73%;
 
 }
+
+/* Доделать стилистику калькулятора - сделав его меньше и перекрасить кнопки операторов на другой цвет  */
